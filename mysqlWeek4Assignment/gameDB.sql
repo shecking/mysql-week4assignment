@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS games;
+USE games;
+DROP TABLE IF EXISTS games;
+
+CREATE TABLE videoGames (
+	id int(10) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    type VARCHAR(25) NOT NULL,
+    PRIMARY KEY(id)
+);
